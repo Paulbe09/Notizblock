@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    background-color: lightgoldenrodyellow;
+    font-family: "Playwrite AU SA", cursive;
+}
+
+
+.title {
+    width: 350px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    font-family: "Playwrite AU SA", cursive;
+}
+
+
+.notice {
+    width: 350px;
+    height: 300px;
+    margin-top: 16px;
+    background-color: lightgoldenrodyellow;
+    font-family: "Playwrite AU SA", cursive;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.savebutton {
+    margin-top: 16px;
+    width: 75px;
+}
+
+
+.savebutton:hover {
+    cursor: pointer;
+}
+
+
+.block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    box-shadow: 4px 4px 4px 0px rgb(0 0 0 / 40%);
+    width: 350px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.deletebutton {
+    width: 50px;
+}
+
+
+.pin {
+    width: 75px;
+}
+
+
+.deletebutton:hover {
+    cursor: pointer;
+}
+
+
+h1 {
+    text-decoration: underline;
+}
+
+
+h2 {
+    text-decoration: underline;
+}
+
+
+p {
+    font-size: 16px;
+    white-space: break-spaces;
+}
+
+.trashcan{
+    width: 75px;
+    margin: 36px;
+
+}
+
+.trashhead{
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.arrow{
+    width:75px;
+    padding:36px;
+}
+
+
+@media(max-width:350px) {
+    .title {
+        width: 200px;
+    }
+
+
+    .notice {
+        width: 200px;
+        height: 150px;
+    }
+}
+

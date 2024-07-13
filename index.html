@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+ES:wght@100..400&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+
+
+
+<body onload="init()">
+
+    <div>
+        <a href="Papierkorb.html"><img class="trashcan" src="./img/trashcan.png"></a>
+    </div>
+
+    <div class="input">
+        <h1>Notizblock</h1>
+        <input class="title" id="title_input" type="text" placeholder="Titel einfügen">
+        <textarea class="notice" id="notice_input" type="text" placeholder="Notiz einfügen"></textarea>
+        <img src="./img/disk1.png" class="savebutton" onclick="saveNotice()">
+    </div>
+
+    <div>
+        <h1 class="header">Meine Notizen</h1>
+    </div>
+
+    <div class="content" id="content"></div>
+
+</body>
+
+</html>
